@@ -1,6 +1,6 @@
 # Object-Oriented-Programming-Assignment
 
-This repository contains my assignments for the **Object-Oriented Programming** course (PBO).
+This repository contains my assignments for the **Object-Oriented Programming** course (OOP).
 
 Each assignment focuses on applying core OOP concepts in Java, such as encapsulation, inheritance, polymorphism, and the use of collections like arrays and ArrayLists.
 
@@ -13,4 +13,4 @@ Assignments are organized by topic. See each folder's README for details.
 
 ## Usage
 
-Store my assignments from **Object-Oriented Programming** course (PBO).
+Store my assignments from **Object-Oriented Programming** course (OOP).
