@@ -4,6 +4,12 @@ A desktop instant-messaging UI built with **Java Swing** and **AWT**, created as
 
 The application simulates a chat window with a conversation area on the left and a contact list on the right. Choosing a contact loads that character's opening message, and every message the user sends is followed by a simulated "typing" indicator and an automatic reply.
 
+## Output
+
+![Astral Messenger running](Assets/output.png)
+
+The window after startup: the contact sidebar on the right (`Aha`, `Silver Wolf`, `Yao Guang`), the `Aha` conversation opened in the chat area with its greeting bubble, the `logo.png` watermark behind the messages, and the empty message field at the bottom waiting for input.
+
 ## Project Structure
 
 | File | Role |
@@ -14,6 +20,7 @@ The application simulates a chat window with a conversation area on the left and
 | `Assets/avatar.jpg` | Avatar representing the user (`Hirsya`). |
 | `Assets/siwol.jpg` | Avatar for the `Silver Wolf` contact. |
 | `Assets/yaoguang.jpg` | Avatar for the `Yao Guang` contact. |
+| `Assets/output.png` | Screenshot of the running application, used in the **Output** section above. |
 | `README.md` | This report. |
 
 > The class is spelled `AstralMessege` (double *s*) to match the file name `AstralMessege.java`. Java requires both names to be identical, so the spelling must not be "fixed" in one place only.
@@ -35,6 +42,7 @@ GUI Project/
 │   ├── avatar.jpg
 │   ├── icon frame.jpg
 │   ├── logo.png
+│   ├── output.png
 │   ├── siwol.jpg
 │   └── yaoguang.jpg
 ├── AstralMessege.java
