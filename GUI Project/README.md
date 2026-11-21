@@ -10,6 +10,18 @@ The application simulates a chat window with a conversation area on the left and
 
 The window after startup: the contact sidebar on the right (`Aha`, `Silver Wolf`, `Yao Guang`), the `Aha` conversation opened in the chat area with its greeting bubble, the `logo.png` watermark behind the messages, and the empty message field at the bottom waiting for input.
 
+### A full conversation
+
+![Chatting with Silver Wolf](Assets/conversation.png)
+
+A short exchange with `Silver Wolf`: the contact's greeting is left-aligned with `siwol.jpg`, the user's reply `Nah` is right-aligned in the beige bubble under the name `Hirsya` with `avatar.jpg`, and the automatic reply follows underneath. The different `FlowLayout` alignment per row is what separates the two speakers.
+
+### Typing indicator
+
+![Typing indicator while waiting for a reply](Assets/typing.png)
+
+Right after a message is sent, the italic `aha ..... (typing)` row appears above the input field until the `Timer` fires and the auto-reply is inserted.
+
 ## Project Structure
 
 | File | Role |
@@ -21,6 +33,8 @@ The window after startup: the contact sidebar on the right (`Aha`, `Silver Wolf`
 | `Assets/siwol.jpg` | Avatar for the `Silver Wolf` contact. |
 | `Assets/yaoguang.jpg` | Avatar for the `Yao Guang` contact. |
 | `Assets/output.png` | Screenshot of the running application, used in the **Output** section above. |
+| `Assets/conversation.png` | Screenshot of a full exchange with `Silver Wolf` (user and contact bubbles). |
+| `Assets/typing.png` | Screenshot of the `typing` indicator shown before the auto-reply. |
 | `README.md` | This report. |
 
 > The class is spelled `AstralMessege` (double *s*) to match the file name `AstralMessege.java`. Java requires both names to be identical, so the spelling must not be "fixed" in one place only.
@@ -40,10 +54,12 @@ Run the commands **from this folder**, because images are loaded with the relati
 GUI Project/
 ├── Assets/
 │   ├── avatar.jpg
+│   ├── conversation.png
 │   ├── icon frame.jpg
 │   ├── logo.png
 │   ├── output.png
 │   ├── siwol.jpg
+│   ├── typing.png
 │   └── yaoguang.jpg
 ├── AstralMessege.java
 └── README.md
